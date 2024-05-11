@@ -10,6 +10,10 @@
             fetch="https://github.com/euclidTeam"
             revision="14" />
 
+    <!-- Gitea -->
+    <remote  name="gitea"
+            fetch="https://gitea.com/" />
+
     <!-- Device repos -->
     <project path="device/euclid/sepolicy" name="device_euclid_sepolicy" revision="14" remote="euclid" />
     <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" revision="14" remote="euclid" />
@@ -70,12 +74,15 @@
     <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="euclid" />
 
     <!-- Package apps Repos -->
-    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="euclid" />
+    <project path="packages/apps/Settings" name="packages_apps_Settings" revision="14.1" remote="euclid" />
     <project path="packages/apps/Geometrics" name="packages_apps_Geometrics" remote="euclid" />
+
+    <!-- Packages Overlays -->
+    <project path="packages/overlays/Themes" name="packages_overlays_Themes" revision="14" remote="euclid" />
 
     <!-- Frameworks repos -->
     <project path="frameworks/av" name="frameworks_av" remote="euclid" />
-    <project path="frameworks/base" name="frameworks_base" remote="euclid" />
+    <project path="frameworks/base" name="frameworks_base" revision="14.1" remote="euclid" />
     <project path="frameworks/native" name="frameworks_native" remote="euclid" />
     <project path="frameworks/ex" name="frameworks_ex" remote="euclid" />
 
@@ -87,5 +94,6 @@
     <!-- Vendor repos -->
     <project path="vendor/euclid" name="vendor_euclid" remote="euclid" />
     <project path="vendor/support" name="vendor_support" remote="euclid"  />
+    <project path="vendor/gms" name="Mrick343/android_vendor_gms" remote="gitea" revision="14-QPR2" clone-depth="1" />
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" revision="14" remote="euclid" />
 </manifest>
