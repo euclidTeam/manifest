@@ -11,8 +11,9 @@
             revision="14" />
 
     <!-- Gitea -->
-    <remote  name="gitea"
-            fetch="https://gitea.com/" />
+    <remote  name="euclid-gitlab"
+            fetch="https://gitlab.com/euclidos"
+            revision="14" />
 
     <!-- Device repos -->
     <project path="device/euclid/sepolicy" name="device_euclid_sepolicy" revision="14" remote="euclid" />
@@ -94,6 +95,6 @@
     <!-- Vendor repos -->
     <project path="vendor/euclid" name="vendor_euclid" remote="euclid" />
     <project path="vendor/support" name="vendor_support" remote="euclid"  />
-    <project path="vendor/gms" name="Mrick343/android_vendor_gms" remote="gitea" revision="14-QPR2" clone-depth="1" />
+    <project path="vendor/gms" name="android_vendor_gms" remote="euclid-gitlab" clone-depth="1" />
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" revision="14" remote="euclid" />
 </manifest>
