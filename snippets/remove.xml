@@ -100,6 +100,7 @@
     <remove-project name="platform/frameworks/opt/calendar" />
     <remove-project name="platform/frameworks/opt/colorpicker" />
     <remove-project name="platform/frameworks/opt/timezonepicker" />
+    <remove-project name="platform/frameworks/libs/systemui" />
 
     <!-- General repos -->
     <remove-project name="platform/art" />
@@ -111,6 +112,8 @@
     <!-- Packages repos -->
     <remove-project name="platform/packages/apps/Calendar" />
     <remove-project name="platform/packages/apps/Settings" />
+    <remove-project name="platform/packages/apps/ThemePicker" />
+    <remove-project name="platform/packages/apps/Launcher3" />
 
     <!-- Hardware repos -->
     <remove-project name="platform/hardware/google/gchips" />
