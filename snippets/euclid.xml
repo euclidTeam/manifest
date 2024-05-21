@@ -79,10 +79,15 @@
     <project path="packages/apps/Geometrics" name="packages_apps_Geometrics" remote="euclid" />
     <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="euclid" />
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="euclid" />
-     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="euclid" />
+    <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="euclid" />
+    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="euclid" />
+    <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="euclid" />
 
     <!-- Packages Overlays -->
     <project path="packages/overlays/Themes" name="packages_overlays_Themes" revision="14" remote="euclid" />
+
+    <!-- Package Services -->
+    <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="euclid" />
 
     <!-- Frameworks repos -->
     <project path="frameworks/av" name="frameworks_av" remote="euclid" />
