@@ -11,7 +11,7 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading)
  To initialize your local repository, use command:
 
 ```bash
-repo init -u https://github.com/euclidTeam/manifest.git -b 14
+repo init -u https://github.com/euclidTeam/manifest.git -b 14 --git-lfs
 ```
 
 Then sync up:
