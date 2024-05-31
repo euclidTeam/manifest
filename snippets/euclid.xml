@@ -75,8 +75,8 @@
     <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="euclid" />
 
     <!-- Package apps Repos -->
-    <project path="packages/apps/Settings" name="packages_apps_Settings" revision="14.1" remote="euclid" />
-    <project path="packages/apps/Geometrics" name="packages_apps_Geometrics" remote="euclid" />
+    <project path="packages/apps/Settings" name="packages_apps_Settings" revision="14" remote="euclid" />
+    <project path="packages/apps/Geometrics" name="packages_apps_Geometrics" revision="14" remote="euclid" />
     <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="euclid" />
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="euclid" />
     <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="euclid" />
@@ -91,7 +91,7 @@
 
     <!-- Frameworks repos -->
     <project path="frameworks/av" name="frameworks_av" remote="euclid" />
-    <project path="frameworks/base" name="frameworks_base" revision="14.1" remote="euclid" />
+    <project path="frameworks/base" name="frameworks_base" revision="14" remote="euclid" />
     <project path="frameworks/native" name="frameworks_native" remote="euclid" />
     <project path="frameworks/ex" name="frameworks_ex" remote="euclid" />
     <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="euclid" />
