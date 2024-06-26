@@ -109,6 +109,7 @@
 
     <!-- Vendor repos -->
     <project path="vendor/euclid" name="vendor_euclid" remote="euclid" />
+    <project path="vendor/euclidOTA" name="vendor_euclidOTA" remote="euclid-devices"/>
     <project path="vendor/support" name="vendor_support" remote="euclid"  />
     <project path="vendor/gms" name="android_vendor_gms" remote="euclid-gitlab" clone-depth="1" />
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" revision="14" remote="euclid" />
