@@ -82,6 +82,7 @@
     <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="euclid" />
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="euclid" />
     <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="euclid" />
+    <project path="packages/apps/Updater" name="packages_apps_Updater" remote="euclid" />    
 
     <!-- Packages Overlays -->
     <project path="packages/overlays/Themes" name="packages_overlays_Themes" revision="14" remote="euclid" />
