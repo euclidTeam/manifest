@@ -10,6 +10,11 @@
             fetch="https://github.com/euclidTeam"
             revision="14" />
 
+    <!-- euclidOS-devices -->
+    <remote  name="euclid-devices"
+            fetch="https://github.com/euclid-devices"
+            revision="14" />
+
     <!-- Gitea -->
     <remote  name="euclid-gitlab"
             fetch="https://gitlab.com/euclidos"
