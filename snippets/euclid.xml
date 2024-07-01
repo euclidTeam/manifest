@@ -102,6 +102,7 @@
     <!-- Hardware repos -->
     <project path="hardware/euclid/interfaces" name="hardware_euclid_interfaces" remote="euclid" />
     <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="euclid"/>
+    <project path="hardware/google/pixel" name="hardware_google_pixel" remote="euclid" />
     <project path="hardware/libhardware" name="hardware_libhardware" remote="euclid" />
     <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="euclid" />
     <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="euclid" />
