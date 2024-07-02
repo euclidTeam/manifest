@@ -26,6 +26,7 @@
     <project path="external/cronet" name="external_cronet" remote="euclid" />
     <project path="external/libcxx" name="external_libcxx" remote="euclid" />
     <project path="external/dtc" name="external_dtc" remote="euclid" />
+    <project path="external/e2fsprogs" name="external_e2fsprogs" remote="euclid" />
 
     <!-- Framework repos -->
     <project path="frameworks/av" name="frameworks_av" remote="euclid" />
