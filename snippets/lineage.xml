@@ -147,6 +147,8 @@
 
       <!-- Hardware Repo -->
       <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-21"/>
+      <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="lineage" />
+      <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="lineage" />
 
       <!-- Extract-utils -->
       <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" revision="lineage-21.0" />
