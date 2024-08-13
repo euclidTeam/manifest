@@ -16,6 +16,8 @@
             sync-j="8"
             revision="qpr3" />
 
+    <!-- Manifest -->
+    <project path="manifest" name="manifest" remote="euclid" />
 
     <!-- external repos -->
     <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
@@ -68,7 +70,6 @@
     <project path="packages/modules/common" name="packages_modules_common" remote="euclid" />
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="euclid" />
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="euclid" />
-    <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="euclid" />
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="euclid" />
     <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="euclid" />
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="euclid" />
@@ -130,14 +131,13 @@
     <project path="system/update_engine" name="system_update_engine" remote="euclid"  />
 
     <!-- Vendor repos -->
-    <project path="vendor/bcr" name="vendor_bcr" remote="euclid" />
-    <project path="vendor/certification" name="vendor_certification" remote="euclid-gitlab" />
     <project path="vendor/euclid" name="vendor_euclid" remote="euclid"/>
     <project path="vendor/euclidOTA" name="vendor_euclidOTA" remote="euclid-devices"/>
     <project path="vendor/gms" name="android_vendor_gms" remote="euclid-gitlab" clone-depth="1" revision="qpr3" />
     <project path="vendor/SystemUIClocks" name="vendor_SystemUIClocks" remote="euclid-gitlab" />
     <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_fm-commonsys" remote="euclid" />
     <project path="vendor/qcom/opensource/core-utils-vendor" name="vendor_qcom_opensource_core-utils-vendor" remote="euclid"/>
+    <project path="vendor/prebuilds" name="vendor_prebuilds" remote="euclid"/>
     <project path="vendor/support" name="vendor_support" remote="euclid" />
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="euclid" />
     <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" remote="euclid" />

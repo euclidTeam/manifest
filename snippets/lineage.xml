@@ -153,4 +153,7 @@
       <!-- Extract-utils -->
       <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" revision="lineage-21.0" />
       <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" revision="lineage-21.0" />
+
+      <!-- Packages Repos -->
+      <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="lineage" revision="lineage-21.0" />
   </manifest>
