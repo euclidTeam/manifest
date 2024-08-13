@@ -2,6 +2,7 @@
 #
 # AOSP tag merge script for ArrowOS
 # Author: Adithya R (ghostrider-reborn)
+# Modified-by: Mrick343
 #
 # Usage (from source root):
 #    ./manifest/merge-tag.sh <TAG>
@@ -12,10 +13,10 @@ grn=$'\e[1;32m'
 blu=$'\e[1;34m'
 end=$'\e[0m'
 
-REMOTE="tpp"
-BRANCH="fourteen-qpr3"
+REMOTE="euclid"
+BRANCH="qpr3"
 
-BLACKLIST="packages/apps/DeskClock"
+BLACKLIST="packages/apps/DeskClock packages/apps/Gallery2"
 
 # verify tag
 if [ -z "$1" ]; then
@@ -75,7 +76,14 @@ for repo in $REPOS; do echo;
         else
             if [[ $(git -C $repo rev-parse HEAD) != $(git -C $repo rev-parse $REMOTE/$BRANCH) ]] && [[ $(git -C $repo diff HEAD $REMOTE/$BRANCH) ]]; then
                 echo "$repo" >> $src_root/success
-                echo "${grn}$repo merged succesfully!"
+                echo "${grn}$repo merged successfully!"
+
+                # Push the changes to the remote branch
+                if ! git -C $repo push -q &> /dev/null; then
+                    echo "${red}$repo push failed!"
+                else
+                    echo "${grn}$repo pushed successfully!"
+                fi
             else
                 echo "${end}$repo unchanged"
                 echo "$repo" >> $src_root/unchanged
@@ -86,12 +94,8 @@ for repo in $REPOS; do echo;
 done
 
 if [ -s success ]; then
-    #echo -e "${grn}\nPushing succeeded repos:$end"
     echo -e "${grn}\nMerge succeeded in:$end"
-    for repo in $(cat success); do
-        echo $repo
-        #git -C $repo push -q &> /dev/null || echo "${red}$repo push failed!"
-    done
+    cat success
 fi
 
 if [ -s failed ]; then
