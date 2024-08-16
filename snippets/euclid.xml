@@ -93,7 +93,8 @@
     <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="euclid" />
     <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="euclid" />
     <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="euclid-gitlab" />
-     <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="euclid" />
+    <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="euclid" />
+    <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="euclid" />
 
     <!-- Device repos -->
     <project path="device/euclid/sepolicy" name="device_euclid_sepolicy" remote="euclid" />
