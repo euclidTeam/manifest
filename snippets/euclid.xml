@@ -29,6 +29,7 @@
     <project path="external/libcxx" name="external_libcxx" remote="euclid" />
     <project path="external/dtc" name="external_dtc" remote="euclid" />
     <project path="external/e2fsprogs" name="external_e2fsprogs" remote="euclid" />
+     <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="euclid" />
 
     <!-- Framework repos -->
     <project path="frameworks/av" name="frameworks_av" remote="euclid" />
@@ -95,6 +96,7 @@
     <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="euclid-gitlab" />
     <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="euclid" />
     <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="euclid" />
+    <project path="packages/apps/OmniStyles" name="packages_apps_OmniStyle" remote="euclid" />
 
     <!-- Device repos -->
     <project path="device/euclid/sepolicy" name="device_euclid_sepolicy" remote="euclid" />
