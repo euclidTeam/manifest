@@ -33,7 +33,7 @@
 
     <!-- Framework repos -->
     <project path="frameworks/av" name="frameworks_av" remote="euclid" />
-    <project path="frameworks/base" name="frameworks_base" remote="euclid" />
+    <project path="frameworks/base" name="frameworks_base" remote="euclid" revision="qpr3_v2"/>
     <project path="frameworks/native" name="frameworks_native" remote="euclid" />
     <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="euclid" />
     <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="euclid" />
@@ -61,7 +61,7 @@
 
     <!-- Packages repos -->
     <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="euclid" />
-    <project path="packages/apps/Geometrics" name="packages_apps_Geometrics" remote="euclid" />
+    <project path="packages/apps/Geometrics" name="packages_apps_Geometrics" remote="euclid" revision="qpr3_v2"/>
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="euclid" />
     <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="euclid" />
     <project path="packages/modules/adb" name="packages_modules_adb" remote="euclid"/>
@@ -142,7 +142,7 @@
     <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_fm-commonsys" remote="euclid" />
     <project path="vendor/qcom/opensource/core-utils-vendor" name="vendor_qcom_opensource_core-utils-vendor" remote="euclid"/>
     <project path="vendor/prebuilds" name="vendor_prebuilds" remote="euclid"/>
-    <project path="vendor/support" name="vendor_support" remote="euclid" />
+    <project path="vendor/support" name="vendor_support" remote="euclid" revision="qpr3_v2"/>
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="euclid" />
     <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" remote="euclid" />
 </manifest>
