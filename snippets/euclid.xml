@@ -138,6 +138,7 @@
     <project path="vendor/euclid" name="vendor_euclid" remote="euclid"/>
     <project path="vendor/euclidOTA" name="vendor_euclidOTA" remote="euclid-devices"/>
     <project path="vendor/gms" name="android_vendor_gms" remote="euclid-gitlab" clone-depth="1" revision="qpr3" />
+    <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="euclid" />
     <project path="vendor/SystemUIClocks" name="vendor_SystemUIClocks" remote="euclid-gitlab" />
     <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_fm-commonsys" remote="euclid" />
     <project path="vendor/qcom/opensource/core-utils-vendor" name="vendor_qcom_opensource_core-utils-vendor" remote="euclid"/>
