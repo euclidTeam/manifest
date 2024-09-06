@@ -97,6 +97,7 @@
     <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="euclid" />
     <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="euclid" />
     <project path="packages/apps/OmniStyles" name="packages_apps_OmniStyle" remote="euclid" />
+    <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="euclid" />
 
     <!-- Device repos -->
     <project path="device/euclid/sepolicy" name="device_euclid_sepolicy" remote="euclid" />
