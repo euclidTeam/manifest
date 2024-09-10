@@ -33,7 +33,7 @@
 
     <!-- Framework repos -->
     <project path="frameworks/av" name="frameworks_av" remote="euclid" />
-    <project path="frameworks/base" name="frameworks_base" remote="euclid" />
+    <project path="frameworks/base" name="frameworks_base" remote="euclid" revision="qpr3_v2"/>
     <project path="frameworks/native" name="frameworks_native" remote="euclid" />
     <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="euclid" />
     <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="euclid" />
