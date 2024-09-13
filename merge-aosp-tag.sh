@@ -40,7 +40,7 @@ echo $REPOS
 src_root=$(pwd)
 
 # initialize some files
-for file in failed success unchanged; do
+for file in failed success unchanged merged_repos; do
     rm -f $file
     touch $file
 done
@@ -78,6 +78,9 @@ for repo in $REPOS; do echo;
                 echo "$repo" >> $src_root/success
                 echo "${grn}$repo merged successfully!"
 
+                # Record merged repo in a list
+                echo "$repo" >> $src_root/merged_repos
+
                 # Push the changes to the remote branch
                 if ! git -C $repo push -q &> /dev/null; then
                     echo "${red}$repo push failed!"
@@ -101,6 +104,12 @@ fi
 if [ -s failed ]; then
     echo -e "$red \nThese repos failed merging:$end"
     cat failed
+fi
+
+# Display the list of successfully merged repos
+if [ -s merged_repos ]; then
+    echo -e "${grn}\nThe following repos were successfully merged:$end"
+    cat merged_repos
 fi
 
 echo $end
