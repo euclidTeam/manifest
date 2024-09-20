@@ -74,7 +74,7 @@
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="euclid" />
     <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="euclid" />
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="euclid" />
-    <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="euclid" />
+    <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="euclid" revision="qpr3_v2"/>
     <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="euclid" />
     <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="euclid" />
     <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" remote="euclid" />
